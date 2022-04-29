@@ -1,0 +1,19 @@
+{
+  "name": "MirrorTuneNirachan",
+  "symbol": "",
+  "image": "1.jpeg",
+  "properties": {
+    "files": [
+      {
+        "uri": "1.jpeg",
+        "type": "image/jpeg"
+      }
+    ],
+    "creators": [
+      {
+        "address": "51S5EkmTqSD8VcQJ3mNhyiUNY3iJUx67uruDYXvE94EX",
+        "share": 100
+      }
+    ]
+  }
+}

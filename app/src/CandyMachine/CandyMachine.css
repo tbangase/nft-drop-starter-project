@@ -1,5 +1,7 @@
 .machine-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -30,4 +32,31 @@
   height: 200px;
   border-radius: 10px;
   object-fit: cover;
+}
+
+.mint-button {
+  background-color: #00ff00;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 12rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.gradient-text {
+  background-color: rgb(213,66,66);
+  background-image: linear-gradient(
+    90deg, 
+    rgba(213,66,66,1) 30%, 
+    rgba(187,225,34,1) 50%, 
+    rgba(237,0,255,1) 70%);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
