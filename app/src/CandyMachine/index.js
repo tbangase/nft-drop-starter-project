@@ -390,7 +390,7 @@ const CandyMachine = ({ walletAddress }) => {
 
   useEffect(() => {
     getCandyMachineState();
-  }, []);
+  });
 
   return candyMachine ? (
     <div className="machine-container">

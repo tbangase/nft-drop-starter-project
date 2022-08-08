@@ -2,6 +2,7 @@
 .env
 .cache
 .vscode
+assets/
 
 # dependencies
 /app/node_modules
